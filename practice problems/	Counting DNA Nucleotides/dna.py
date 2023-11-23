@@ -47,7 +47,7 @@ def main() -> None:
             count_t += 1
 
 
-    print("A: " + str(count_a), "C: " + str(count_c), "G: " + str(count_g), "T: " + str(count_t)
+    print("A: " + str(count_a), "C: " + str(count_c), "G: " + str(count_g), "T: " + str(count_t))
 
 
 # --------------------------------------------------
