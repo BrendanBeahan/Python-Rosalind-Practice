@@ -31,22 +31,23 @@ def get_args() -> Args:
 
 # --------------------------------------------------
 def main() -> None:
-    """ Make a jazz noise here """
-
+    """ Count nucleotide frequency. Print results. """
     args = get_args()
+
     count_a, count_c, count_g, count_t = 0, 0, 0, 0
 
-    for base in args.dna:
-        if base == 'A':
+    for i in args.dna:
+        if i.lower() == "a":
             count_a += 1
-        elif base == 'C':
+        elif i.lower() == "c":
             count_c += 1
-        elif base == 'G':
+        elif i.lower() == "g":
             count_g += 1
-        elif base == 'T':
+        elif i.lower() == "t":
             count_t += 1
 
-    print(count_a, count_c, count_g, count_t)
+
+    print("A: " + str(count_a), "C: " + str(count_c), "G: " + str(count_g), "T: " + str(count_t)
 
 
 # --------------------------------------------------
