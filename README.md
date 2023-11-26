@@ -1,5 +1,5 @@
 # Python Rosalind Practice
-Going through Rosalind problems for fun in order to maintain python skills from masters.
+Going through Rosalind problems for fun in order to maintain python skills acquired during my masters.
 
 Additionally, attempting to improve coding style by incorporating best practices from various sources.
 Including: 
