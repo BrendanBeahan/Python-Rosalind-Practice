@@ -33,8 +33,7 @@ def get_args() -> Args:
 def main() -> None:
     """ Count nucleotide frequency. Print results. """
     args = get_args()
-    final_count = count(args.dna)
-    print(final_count)
+    print('{} {} {} {}'.format(*count(args.dna))) 
 # --------------------------------------------------
 
 def count(dna: str) -> Tuple[int, int, int, int]:
